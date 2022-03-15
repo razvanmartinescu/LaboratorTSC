@@ -3,7 +3,7 @@
  * User-defined type definitions
  **********************************************************************/
 package instr_register_pkg;
- //timeunit 1ns/1ns;
+ // timeunit 1ns/1ns;
 
   typedef enum logic [3:0] {
   	ZERO,
