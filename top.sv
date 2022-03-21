@@ -3,7 +3,7 @@
  **********************************************************************/
 
 module top;
-  //timeunit 1ns/1ns;
+ // timeunit 1ns/1ns;
 
   // user-defined types are defined in instr_register_pkg.sv
   import instr_register_pkg::*;
@@ -11,45 +11,49 @@ module top;
   // clock variables
   logic clk;
   logic test_clk;
-  tb_ifc Lab1TSC();
+
+  tb_ifc lab2_if(.clk(clk));
+
   // interconnecting signals
   //logic          load_en;
   //logic          reset_n;
   //opcode_t       opcode;
   //operand_t      operand_a, operand_b;
   //address_t      write_pointer, read_pointer;
-  //instruction_t  instruction_word;
+ // instruction_t  instruction_word;
+  
 
   // instantiate testbench and connect ports
   instr_register_test test (
-    .clk(test_clk),
-    .load_en(Lab2TSC.load_en),
-    .reset_n(Lab2TSC.reset_n),
-    .operand_a(Lab2TSC.operand_a),
-    .operand_b(Lab2TSC.operand_b),
-    .opcode(Lab2TSC.opcode),
-    .write_pointer(Lab2TSC.write_pointer),
-    .read_pointer(Lab2TSC.read_pointer),
-    .instruction_word(Lab2TSC.instruction_word)
+    lab2_if
+    // .clk(test_clk),
+    // .load_en(lab2_if.load_en),
+    // .reset_n(lab2_if.reset_n),
+    // .operand_a(lab2_if.operand_a),
+    // .operand_b(lab2_if.operand_b),
+    // .opcode(lab2_if.opcode),
+    // .write_pointer(lab2_if.write_pointer),
+    // .read_pointer(lab2_if.read_pointer),
+    // .instruction_word(lab2_if.instruction_word)
    );
 
   // instantiate design and connect ports
   instr_register dut (
     .clk(clk),
-    .load_en(Lab2TSC.load_en),
-    .reset_n(Lab2TSC.reset_n),
-    .operand_a(Lab2TSC.operand_a),
-    .operand_b(Lab2TSC.operand_b),
-    .opcode(Lab2TSC.opcode),
-    .write_pointer(Lab2TSC.write_pointer),
-    .read_pointer(Lab2TSC.read_pointer),
-    .instruction_word(Lab2TSC.instruction_word)
+    .load_en(lab2_if.load_en),
+    .reset_n(lab2_if.reset_n),
+    .operand_a(lab2_if.operand_a),
+    .operand_b(lab2_if.operand_b),
+    .opcode(lab2_if.opcode),
+    .write_pointer(lab2_if.write_pointer),
+    .read_pointer(lab2_if.read_pointer),
+    .instruction_word(lab2_if.instruction_word)
    );
 
   // clock oscillators
   initial begin
     clk <= 0;
-    forever #5  clk = ~clk;
+    forever #5  clk = ~clk; //clock negat 
   end
 
   initial begin
