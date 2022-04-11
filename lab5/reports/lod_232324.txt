@@ -1,0 +1,50 @@
+# *********************
+# *  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  *
+# *  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     *
+# *  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  *
+# *********************
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 5 (MULT)
+#   operand_a = 15
+#   operand_b = 11
+# 
+#   TIME:                   24 ns
+# Writing to register location 1: 
+#   opcode = 0 (ZERO)
+#   operand_a = 6
+#   operand_b = 14
+# 
+#   TIME:                   34 ns
+# Writing to register location 2: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 7
+# 
+#   TIME:                   44 ns
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 5 (MULT)
+#   operand_a = 15
+#   operand_b = 11
+# 
+# Read from register location 1: 
+#   opcode = 0 (ZERO)
+#   operand_a = 6
+#   operand_b = 14
+# 
+# Read from register location 2: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 7
+# 
+# 
+# *********************
+# *  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  *
+# *  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     *
+# *  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  *
+# *********************
