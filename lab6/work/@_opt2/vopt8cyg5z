@@ -1,0 +1,126 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt
+Z1 V5mI0Tg1h8=zdZJo7mES0E2
+Z2 04 3 4 work top fast 0
+Z3 =1-34cff6a8aace-6230c1dc-185-3d54
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dC:\Users\Cristina\Desktop\lab2 TSC
+T_opt1
+Z8 V`IJ;lCnDzlLY:l4nG[@E_2
+Z9 04 19 4 work instr_register_test fast 0
+Z10 =1-34cff6a8aace-6241632f-135-e54
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 VPSH_5oXhQXJYhVo;Pe^@A0
+R9
+Z13 =1-80ce629d8dc1-62416711-39a-291c
+Z14 o-quiet -auto_acc_if_foreign -work work +acc
+Z15 n@_opt2
+R6
+R7
+vinstr_register
+Z16 Mx1 6 sv_std 3 std
+Z17 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z18 Mx2 4 work 18 instr_register_pkg
+Z19 DXx4 work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
+Z20 Izlgh4QQ_5WV`>EDVk6A=21
+Z21 V3z9A3Eb_VM7O2iR_@`ig80
+S1
+Z22 dC:\Users\User\Desktop\lab4
+Z23 w1647251742
+Z24 8C:/Users/User/Desktop/lab4/lab_dut/instr_register.sv
+Z25 FC:/Users/User/Desktop/lab4/lab_dut/instr_register.sv
+L0 9
+Z26 OE;L;6.6d;45
+r1
+31
+Z27 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z28 !s100 6^c4H@z>TICN;NJ=0DO5K2
+Z29 !s105 instr_register_sv_unit
+!s85 0
+Xinstr_register_pkg
+Z30 Mx1 24 C:\modeltech_6.6d\sv_std 3 std
+Z31 DXx24 C:\modeltech_6.6d\sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z32 I:JTF@fFZEAY;_aRJ`=BP83
+Z33 V:JTF@fFZEAY;_aRJ`=BP83
+S1
+R22
+Z34 w1647254342
+Z35 8C:/Users/User/Desktop/lab4/lab_dut/instr_register_pkg.sv
+Z36 FC:/Users/User/Desktop/lab4/lab_dut/instr_register_pkg.sv
+L0 5
+R26
+r1
+31
+R27
+Z37 !s100 V^fH5UCOegY6PL:OBDSV^3
+!s85 0
+vinstr_register_test
+R30
+R31
+Z38 Mx2 31 C:\Users\User\Desktop\lab4\work 18 instr_register_pkg
+Z39 DXx31 C:\Users\User\Desktop\lab4\work 18 instr_register_pkg 0 22 :JTF@fFZEAY;_aRJ`=BP83
+Z40 I:V]lMHYFgOI:0>2>3hMza0
+Z41 VEBCnBoI9@;K2I3Z?DhHY42
+S1
+R22
+Z42 w1648453242
+Z43 8C:/Users/User/Desktop/lab4/lab01_testbench-interface/instr_register_test.sv
+Z44 FC:/Users/User/Desktop/lab4/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R26
+r1
+31
+R27
+Z45 !s105 instr_register_test_sv_unit
+Z46 !s100 WRB8zSU1BnRGiO<bO:]702
+!s85 0
+Ytb_ifc
+R30
+R31
+R38
+R39
+Z47 I4?AQ>diCojTFgeEio4YVn2
+Z48 V[2MM;6bj4cE27ld353ZQ90
+S1
+R22
+Z49 w1648453136
+Z50 8C:/Users/User/Desktop/lab4/lab01_testbench-interface/tb_ifc.sv
+Z51 FC:/Users/User/Desktop/lab4/lab01_testbench-interface/tb_ifc.sv
+L0 5
+R26
+r1
+31
+R27
+Z52 !s105 tb_ifc_sv_unit
+Z53 !s100 815AzX^?ZmHVmEZfK<I7A0
+!s85 0
+vtop
+R16
+R17
+R18
+R19
+Z54 IC_2:i]XM53[4=P2Hoem_53
+Z55 Ve:gFW1CKLAXc^T:7k2HoD1
+S1
+R22
+Z56 w1647859953
+Z57 8C:/Users/User/Desktop/lab4/lab01_testbench-interface/top.sv
+Z58 FC:/Users/User/Desktop/lab4/lab01_testbench-interface/top.sv
+L0 5
+R26
+r1
+31
+R27
+Z59 !s100 eG_gEDVHk8R<LGMTD=AZT0
+Z60 !s105 top_sv_unit
+!s85 0
